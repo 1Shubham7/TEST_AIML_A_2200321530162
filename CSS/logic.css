@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:3vh
+}
+
+.loginPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50%;
+    background-color: white;
+}
