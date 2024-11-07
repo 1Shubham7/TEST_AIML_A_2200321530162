@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/convertor.css">
+    <script src="../JS/convertor.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Convertor</h1>
+        </div>
+        <div class="body">
+            <div class="left">
+                <button onclick="showConvertor()">Convert</button>
+            </div>
+            <div class="right">
+                <div class="convertor">
+                    <h1>Currency Convertor</h1>
+                    <div>
+                        <input type="text" id="input" placeholder="Enter Amount" value="1" />
+                        <select name="" id="inputCurrency">
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" id="output" placeholder="Enter Amount" />
+                        <select name="" id="outputCurrency"></select>
+                    </div>
+                    <button onclick="convert()">Convert</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>shiv productions</h3>
+        </div>
+    </div>
+</body>
+
+</html>
